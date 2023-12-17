@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 15, 2023 at 04:14 AM
+-- Generation Time: Dec 17, 2023 at 06:44 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -95,7 +95,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `name`, `email`, `password`, `mobile`) VALUES
-(1, 'admin', 'admin@gmail.com', '*E4A037873BF6C039358C12D2B772D39954E0DC79', 1148458757);
+(1, 'admin', 'admin@gmail.com', 'admin@1234', 1148458757);
 
 -- --------------------------------------------------------
 
